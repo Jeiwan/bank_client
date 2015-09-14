@@ -1,0 +1,61 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://auth_login:auth_pass@127.0.0.1/
+    body:
+      encoding: UTF-8
+      base64_string: |
+        PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0id2luZG93cy0xMjUxIj8+
+        PGdhdGV3YXkgeG1sbnM9Imh0dHA6Ly9kaXQucnNiLnJ1L2dhdGV3YXkvcmVx
+        dWVzdCI+PHJlcXVlc3Q+PHRhcmdldD5naWZ0ZGVwb3NpdF9hZ2VudF9rYXNz
+        PC90YXJnZXQ+PG9wZXJhdGlvbj5jaGVjazwvb3BlcmF0aW9uPjxpZGNhcmQ+
+        OTAwMDI0MDMxOTkyMzwvaWRjYXJkPjwvcmVxdWVzdD48c2lnPmQxZThlZmQ0
+        MmNlMTBkOTNjNDliMjg1MmI2ZmUyYzk1MTU1OTFhZjQ0NTdhNTBiNWE4NzBk
+        MjRmMGI3YmU0YzdkMDczMWQyM2QzOGJlZmZkY2JhOThhZjk3MjlhY2QxZjA5
+        MjYyZGUyY2JhODVlZDQ3OTcwNzhmNTJmOTQxYjg5OTEyMmM2YzNhMmYxYmFk
+        YzY1YWQ1ZWQxNzJmNWQyYTQ1NDRlMzFkZjE2ODc3NGJlNTdkN2YyNjg0NTcx
+        ZDZhMWFkNzVjNGUxZjE0MWI1YTEyNTljOTJiYjM3MmFlMWI5NDkxYzgxNTgz
+        OWRhZjNlYzEwNjc1ZDM5ZWRhYjZlNzllMDNlNTAxNjI2ODNmMmJmNWY5MTg1
+        YjY2OGIwODQ4M2JmYzNhMGE4YTA0MjcyOTVjOGIyNzE0NDY1MDY5Yjg2NDM3
+        YTE4NmJhNTUwZTMyOTg4M2Y1Y2ViOWUyMmQ0Yjg1ZTJhN2MzNDc1ZTNmN2Rl
+        MjViZDM2ZGVjNjA3ODBlNWI1ZTdhZGExNWJkN2QwZDRmOTQwYTYzYmI3OWJl
+        MmQ3MzYwNmM4YjA0YTdiMjExNzQwZTEyNDNjZWRjZjlkZTk1Y2EwMjg5ZTAz
+        ZTQ1YjRlYjU4ODc0MzQwNzZhZDViOTVlNWY3NmM4MzAxZDFhZTMxZTkzYTRm
+        NTIxYjFkNDI0M2JmMDZkMTE5NzI1YmYyYTlkZDFmYzQ4NTc3Y2RhZGJjYWE4
+        NzRiYmIyYTg5Njg0M2ZiYmNjZDU5MTRlNzUxMjIyODI3OGY3YWE2NmZmZDJi
+        YjUyNmQ1ZGQwM2Q1MWYxNzA2NWY0YzA4YTYwYTc3YmFkYzc4ZTczZDA3ZDZl
+        MmViZjkyNDM5YWYxNWRkODQyMWI1YmQzNGFhZjAxODlmYzJjZDFiMzRiZTQ2
+        NGJmZjQ5NTgwODMzNzc2NDM1M2RiZjQ5MzVmOGJjYjEzODhjYzNjMWU3ZWU1
+        Y2QyM2VjYjFmZDM2Nzc3OTEyZTIwZDhhNjIyMjU2OGYwZGMzNTQ1MWFkYzA0
+        ODMzMmI3ZWZiZDc4MjhiMjdjMGUyZDc4ZTlhYjJmMmYwNjRkYTA2YzA0NDg1
+        MTk5YzBkYTBmODQ3NDJjNDk1ZTYzMGJlN2Y3ZGFkM2QzMzJkYWZlOGRlNTAy
+        M2RmNzJiMGQ4Mjk5ZThkZmZkMjAxNWI4M2ZlMzVmZDEwZGI5MzM2ZjI3MTk3
+        YjYyNmZiZjZiMjA2MmZhNzU5OTQ0MDYwMDZmMzBlYWU2ODE2YjA1NGE5NzE5
+        YmVlYjg4ODBkZjI4OGU0Yjc1NDM4YTlkOGQ0MGEzYzRiYTIzZjFjNzE3MDVl
+        ZTBkNzdmNjAzM2JmOGEzODVkNDQxOTUxYjg8L3NpZz48L2dhdGV3YXk+
+    headers:
+      Content-Type:
+      - application/xml
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 20 Nov 2015 00:31:46 GMT
+      Server:
+      - Sun-ONE-Web-Server/6.1 mod_fastcgi/2.4.6
+      Connection:
+      - close
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - text/xml
+    body:
+      encoding: UTF-8
+      base64_string: |
+        PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0id2luZG93cy0xMjUxIj8+DQo8Z2F0ZXdheV9yZXNwb25zZSB4bWxucz0iaHR0cDovL2JhbmsucnUvZ2F0ZXdheS9yZXNwb25zZSI+DQogIDxhbW91bnQ+MDwvYW1vdW50Pg0KICA8Y2FyZG51bWJlcj41NDIwNDgqKioqKio3NTc5PC9jYXJkbnVtYmVyPg0KICA8Y29tbT4wPC9jb21tPg0KPC9nYXRld2F5X3Jlc3BvbnNlPg0K
+    http_version: 
+  recorded_at: Fri, 20 Nov 2015 00:32:13 GMT
+recorded_with: VCR 2.9.3
